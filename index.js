@@ -19,7 +19,11 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 21;
 
+if(votingAge > 18){
+  console.log(true);
+}
 
 
 /*
@@ -32,8 +36,14 @@ Do the following:
 
    HINT: no function required
 */
+let variableOne = 15;
+const variableTwo = 3;
 
+if (variableTwo < 5){
+  variableOne = 6;
+}
 
+console.log(variableOne);
 
 
 
@@ -48,8 +58,11 @@ Do the following:
    HINT: look up the Number method
 */
 
+let year = '1999';
 
+year = Number(year);
 
+console.log(year);
 
 /*
 Task 1d - Multiply
@@ -60,10 +73,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
 
+console.log(multiply(1, 3));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -207,6 +221,8 @@ function annoyingSong(number){
         return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i - 1} bottles of soda on the wall`;
       }
 }
+
+console.log('task 6', annoyingSong(99));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
