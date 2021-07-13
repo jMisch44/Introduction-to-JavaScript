@@ -130,11 +130,11 @@ function hungryDog(dogWeight, dogAge){
     return dogWeight * 0.05;
   }else if(dogAge > .582 && dogAge < 1){
     return dogWeight * 0.04;
-  }else if(dogWeight < 5){
+  }else if(dogWeight <= 5){
     return dogWeight * 0.05;
-  }else if(dogWeight < 10){
+  }else if(dogWeight <= 10){
     return dogWeight * 0.04;
-  }else if(dogWeight < 15){
+  }else if(dogWeight <= 15){
     return dogWeight * 0.03;
   }else{
     return dogWeight * 0.02;
